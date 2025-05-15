@@ -201,8 +201,7 @@
 // });
 
 // ------------------With Scalibility ---------------------------
-// AZURE_STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=useracc01;AccountKey=UUbUmfaq0Mas8gvmTK/M0eL1SL0RbNnPnW25U8T8dxCJKvADsJn6/Hhf1V4bSTQ8e7HiXno8Wdx2+AStubjxtg==;EndpointSuffix=core.windows.net"
-// COSMOS_DB_CONNECTION_STRING="AccountEndpoint=https://usersmetadata.documents.azure.com:443/;AccountKey=XIj6RdBdeJfvOVQB6lNAU8DAvmjJ8zYhoI4mH0VGWof2eeJV9FvbKDUVVc90DO4WddmD0J2YmFhaACDbsZABUw==;"
+
 require("dotenv").config();
 const express = require("express");
 const multer = require("multer");
